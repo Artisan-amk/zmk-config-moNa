@@ -93,9 +93,7 @@
 &kp LCTRL                             &lt 0 SPACE  &lt_to_layer_0 0 ENTER    &lt_to_layer_0 0 ENTER  &lt 1 SPACE  &kp BACKSPACE  &kp DEL    &kp LEFT_WIN  &kp LEFT_ALT
             >;
 
-            sensor-bindings =
-                <&inc_dec_kp RETURN DELETE>,
-                <&inc_dec_kp RETURN DELETE>;
+            sensor-bindings = <&inc_dec_kp RETURN DELETE>, <&inc_dec_kp C A>;
         };
 
         layer_1 {
